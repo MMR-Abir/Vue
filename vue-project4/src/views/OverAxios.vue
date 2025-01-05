@@ -1,7 +1,11 @@
 <template>
     <div>
 <button @click="callData">Fetch Data</button>
-<h1 v-if="mydata">{{ mydata }}</h1>
+<pre> 
+    <h1 v-if="mydata">{{ mydata }}</h1>
+
+</pre>
+
     </div>
 </template>
 
